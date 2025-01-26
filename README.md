@@ -1,12 +1,14 @@
 # QuantUS-CEUS
 
-QuantUS is an open-source quantitative analysis tool designed for ultrasonic tissue characterization (UTC) and contrast enhanced ultrasound (CEUS) imaging analysis. This repository contains all code behind the CEUS features of the software.
+[QuantUS](https://github.com/TUL-Dev/QuantUS) is an open-source quantitative analysis tool designed for ultrasonic tissue characterization (UTC) and contrast enhanced ultrasound (CEUS) imaging analysis. This repository contains all code behind the CEUS features of the software.
 
 ## Overview
 
 In general, QuantUS provides an ultrasound system-independent platform for standardized, interactive, and scalable quantitative ultrasound research. The software is compatible on Mac OS X, Windows, and Linux.
 
 This repository supports time intensity curve (TIC) analysis on 2D and 3D dynamic constrast enhanced ultrasound (DCE-US) cine loops. It uses lognormal curve fitting to compute the area under the curve (AUC), peak enhancement (PE), mean transit time (MTT), time to peak (TP), and normalization factor (TMPPV) parameters while also tracking the lesion area/volume. The software also includes functionality for 2D and 3D parametric map generation as well as motion compensation for 2D DCE-US analysis.
+
+For more information, see our [documentation](https://tul-dev.github.io/PyQuantUS/).
 
 ![3D DCE-US Parametric Map Example](Images/3dDceusParamap.png)
 
