@@ -69,8 +69,4 @@ python main.py
 ## Sample Data
 
 [This folder](https://drive.google.com/drive/folders/1wZ1lAWxew0dqeIehVtiUIOOXQcaCT14p?usp=sharing)
-contains minimal sample data required to get started with UTC.
-Note that since phantom data must be collected using
-identical transducer settings as the images they're compared to, we
-do not recommend using phantoms from this folder for analysis on custom
-data.
+contains minimal sample data required to get started with 2D and 3D CEUS analysis.
